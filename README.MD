@@ -17,7 +17,7 @@ We will be needing to connect two devices to transmit data between the devices, 
 
 
 ## Architecture
-I have chosen the following module architecture:
+I have chosen the following module architecture:  
 ![architecture](docs/img/architecture.png)
 
 ### Feature modules
@@ -55,4 +55,12 @@ I have chosen the following module architecture:
 - [Gradle Version Catalog](https://docs.gradle.org/8.1/userguide/platforms.html)
 - [Jetpack Compose](https://developer.android.com/develop/ui/compose)
 - [Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- [Mockito](https://site.mockito.org/)
+- [Robolectric](https://robolectric.org/)
 - [Room](https://developer.android.com/jetpack/androidx/releases/room)
+
+## Prerequisite
+To get sockets working you need to port forward the port by running the following command:
+```console
+adb -s {emulator} forward tcp:12345 tcp:12345
+```

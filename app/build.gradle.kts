@@ -77,8 +77,6 @@ dependencies {
     //Navigation
     implementation(libs.compose.navigation)
 
-    //GMS Nearby
-    implementation(libs.play.services.nearby)
 
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.runtime.ktx)
