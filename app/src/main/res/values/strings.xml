@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Secret Messaging</string>
+    <string name="bottom_navigation_connection">Connection</string>
+    <string name="bottom_navigation_encryption">Encryption</string>
+    <string name="bottom_navigation_decryption">Decryption</string>
+    <string name="bottom_navigation_account">Account</string>
+</resources>
